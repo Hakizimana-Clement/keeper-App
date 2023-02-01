@@ -30,7 +30,6 @@ function CreateArea(props) {
 
   const [isExpand, setIsExpand] = useState(false);
   function expandClick() {
-    console.log("clicked");
     setIsExpand((prevValue) => !prevValue);
   }
   return (
